@@ -1,0 +1,21 @@
+{
+    "name": "ShadowRay",
+    "description": "Deploy Shadowsocks v2ray to Heroku.",
+    "env": {
+        "ENCRYPT": {
+            "description": "Shadowsocks encryption method.",
+            "value": "xchacha20-ietf-poly1305"
+        },
+        "PASSWORD": {
+            "description": "The password of shadowsocks",
+            "value": "random password"
+        },
+        "AppName": {
+            "description": "Your app name",
+            "value": "myuniqueappname"
+        }
+    },
+    "website": "",
+    "repository": "",
+    "stack": "container"
+}
