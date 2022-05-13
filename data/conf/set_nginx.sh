@@ -5,7 +5,7 @@ server {
     listen       [::]:${PORT};
     root /data/web;
     index index.html;
-    location = /shadow {
+    location /shadow {
         if (\$http_upgrade != "websocket") { # WebSocket return this when negotiation fails 404
             return 404;
         }
